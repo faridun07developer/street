@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.container {
+    display: flex;
+    max-width: 1110px;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+body {
+    background-color: rgba(12, 12, 12, 1);
+}
+/* navbar */
+.nav-left {
+    display: flex;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 18px 0;
+}
+.nav-text {
+    display: flex;
+    gap: 20px;
+    /* flex-direction: row; */
+}
+.nav-right {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 18px 0;
+}
+.second-navbar-content {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+}
+.street88 {
+    max-width: 300px;
+    background-color: rgba(6, 96, 15, 1);
+    margin: 6px 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.second-navbar-right .glavnaya   {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-right: 10px;
+    padding: 22px 0; 
+}
+.glavnaya-card:hover {
+    background-color: rgba(105, 207, 23, 0.75);
+}
+.navbar-text {
+    width: 45px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar-text span {
+    width: 100%;
+    height: 6px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+hr {
+    color: grey;
+}
+/* first body */
+.first-body {
+    background-image: url(./img/food-burger-wallpaper-preview\ 1.jpg);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.first-body-content {
+    /* max-width: 100%; */
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.first-body-text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.first-body-text h1 {
+    max-width: 732px;
+    color: rgba(105, 207, 23, 1);
+    font-weight: 900;
+    font-size: 70px;
+}
+.first-body-text h6 {
+    max-width: 175px;
+    color: rgba(105, 207, 23, 1);
+    font-weight: 400;
+    font-size: 30px;
+}
+.first-body-text p {
+    max-width: 100%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.first-body-buttons {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.left-button {
+    background-color: rgba(105, 207, 23, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 103px;
+}
+.left-button p {
+    font-weight: 100;
+    font-size: 50px;
+}
+.right-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 51px;
+    background-color: rgba(105, 207, 23, 1);
+    border-radius: 6px;
+}
+/* burgers */
+.burger-content {
+    max-width: 1600px;
+}
+.menu-title {
+    margin-top: 48px;
+    background-color: rgba(41, 41, 41, 1);
+    display: flex;
+    gap: 36px;
+    padding: 21px 0 21px 21px;
+    color: #fff;
+}
+.menu-title li:hover {
+    padding-top: 5px;
+    border-bottom: 3px solid grey;
+}
+.burger-box {
+    display: flex;
+    gap: 25px;
+    background-color: rgba(41, 41, 41, 1);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.burger-img {
+    opacity: 0.8;
+    /* transform: scale(0); */
+}
+.burger-img:hover {
+    opacity: 1;
+    color: green;
+    /* transform: scale(3, 3); */
+}
+.burger-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    color: #fff;
+    /* border: 1px solid red; */
+    max-width: 360px;
+    background-color: rgba(12, 12, 12, 1);
+}
+.burger-card p {
+    max-width: 340px;
+    font-weight: 400;
+    font-size: 19px;
+}
+/* footer */
+.footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(105, 207, 23, 0.5));
+    min-height: 100px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.phone {
+    max-width: 169px;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+.map h1 {
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: rgba(105, 207, 23, 1);
+    /* max-width: 283px; */
+    font-weight: 700;
+    font-size: 50px;
+}
+/* about page */
+.nac-content {
+    display: flex;
+    flex-direction: column;
+}
+.img-street h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(105, 207, 23, 0.7);
+    font-weight: 700;
+    font-size: 55px;
+}
+.about-img {
+    width: 1110px;
+}
+
+
+@media (max-width: 1200px) {
+    .burger-box {
+        max-width: 1250px;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .about-img {
+        max-width: 992px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        padding: 0 30px;
+    }
+    .first-body-content {
+        background-image: url(./img/food-burger-wallpaper-preview\ 1.jpg); 
+        max-width: 1500px;
+    }
+    .burger-content {
+        max-width: 1000px;
+    }
+    .burger-box {
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-img {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .first-body-text h1 {
+        font-size: 50px;
+    }
+    .first-body-text h6  {
+        font-size: 25px;
+    }
+    .first-body-text p  {
+        font-size: 20px;
+    }
+    .navbar-text {
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin: auto 10px auto 0;
+    }
+
+    .second-navbar-right .glavnaya {
+        overflow: hidden;
+        display: none;
+    }
+    .navbar-content {
+        display: none;
+    }
+    .about-img {
+        max-width: 576px;
+    }
+}
+@media (max-width: 576px) {
+    .first-body-text h1 {
+        font-size: 40px;
+    }
+    .first-body-text h6  {
+        font-size: 20px;
+    }
+    .first-body-text p  {
+        font-size: 18px;
+    }
+    .about-img {
+        max-width: 480px;
+    }
+}
+@media (max-width: 480px) {
+    .first-body-text h1 {
+        font-size: 25px;
+    }
+    .first-body-text h6  {
+        font-size: 19px;
+    }
+    .first-body-text p  {
+        font-size: 15px;
+    }
+    .left-button  {
+        width: 200px;
+    }
+    .street88 {
+        font-size: 20px;
+    }
+    .left-button p {
+        font-size: 70px;
+    }
+    .right-button {
+        width: 300px;
+    }
+    .right-button p {
+        font-size: 25px;
+    }
+    .burger-card {
+        max-width: 320px;
+    }
+    .menu-title {
+        gap: 15px;
+    }
+    .footer-first {
+        display: flex;
+        gap: 20px;
+        justify-content :center;
+        margin-bottom: 15px;
+    }
+    .phone {
+        width: 150px;
+    }
+    .about-img {
+        max-width: 290px;
+    }
+    .h2 {
+        max-width: 250px;
+    }
+}
